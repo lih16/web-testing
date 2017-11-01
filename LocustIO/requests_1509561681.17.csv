@@ -1,0 +1,5 @@
+"Method","Name","# requests","# failures","Median response time","Average response time","Min response time","Max response time","Average Content Size","Requests/s"
+"GET","/CancerCurationView/public/login/login/",6436,6792,7100,10243,14,74733,1064,15.22
+"POST","/CancerCurationView/public/login/login/login",5,9,15000,15534,6001,24657,1064,0.01
+"GET","/CancerCurationView/public/login/login/profile",3325,3471,7100,10102,15,36996,1064,7.86
+"None","Total",9766,10272,7100,10198,14,74733,1064,23.10

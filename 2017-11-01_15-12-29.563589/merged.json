@@ -1,0 +1,39 @@
+{
+ "scenarios": {
+  "linear-growth": {
+   "requests": [
+    {
+     "action": "pause", 
+     "pause-duration": 0, 
+     "jsr223": [
+      {
+       "script-text": "\nvar startTime = parseInt(props.get(\"startTime\"));\nif (!startTime) {\n    startTime = Math.floor((new Date()).getTime() / 1000);\n    props.put(\"startTime\", startTime);\n} else {\n    var now = Math.floor((new Date()).getTime() / 1000);\n    var offset = now - startTime;\n    if (offset < 60) {\n        var targetOffset = Math.max(offset * 10, 10);\n        props.put(\"throughput\", targetOffset.toString());\n    }\n}", 
+       "execute": "before", 
+       "language": "javascript"
+      }
+     ]
+    }, 
+    "http://34.235.93.148/CancerCurationView/public/login/login"
+   ], 
+   "timeout": "5s", 
+   "retrieve-resources": false, 
+   "keepalive": false
+  }
+ }, 
+ "execution": [
+  {
+   "scenario": "linear-growth", 
+   "throughput": "${__P(throughput,600)}", 
+   "hold-for": "2m", 
+   "concurrency": "${__tstFeedback(Throughput_Limiter,1,${__P(concurrencyCap,1)},2)}"
+  }
+ ], 
+ "modules": {
+  "jmeter": {
+   "properties": {
+    "concurrencyCap": 500, 
+    "throughput": 1
+   }
+  }
+ }
+}

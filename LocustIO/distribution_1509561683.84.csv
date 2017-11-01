@@ -1,0 +1,5 @@
+"Name","# requests","50%","66%","75%","80%","90%","95%","98%","99%","100%"
+"GET /CancerCurationView/public/login/login/",6472,7100,9500,13000,15000,20000,23000,25000,26000,74733
+"POST /CancerCurationView/public/login/login/login",5,15000,20000,20000,25000,25000,25000,25000,25000,24657
+"GET /CancerCurationView/public/login/login/profile",3355,7100,9400,12000,15000,20000,23000,25000,26000,36996
+"None Total",9832,7100,9500,13000,15000,20000,23000,25000,26000,74733

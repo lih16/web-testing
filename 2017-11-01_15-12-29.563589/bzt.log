@@ -1,0 +1,90 @@
+[2017-11-01 15:12:29,512 INFO root] Taurus CLI Tool v1.10.0
+[2017-11-01 15:12:29,513 DEBUG root] Command-line options: {'verbose': None, 'no_system_configs': None, 'quiet': None, 'log': '/var/folders/5l/9hgw0k3n2w92y350ljlnysb40000gp/T/bzt_Ke0FVQ.log', 'option': None, 'aliases': ['report']}
+[2017-11-01 15:12:29,513 DEBUG root] Python: CPython 2.7.10
+[2017-11-01 15:12:29,513 DEBUG root] OS: ('Darwin', 'SEMA4067LT.local', '16.7.0', 'Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64', 'x86_64', 'i386')
+[2017-11-01 15:12:29,513 DEBUG root] Adding HTTP shorthand config for: ['http://34.235.93.148/CancerCurationView/public/login/login']
+[2017-11-01 15:12:29,514 DEBUG root] Dumping JSON config into /var/folders/5l/9hgw0k3n2w92y350ljlnysb40000gp/T/http_QKogzV.yml
+[2017-11-01 15:12:29,514 INFO root] Starting with configs: ['/var/folders/5l/9hgw0k3n2w92y350ljlnysb40000gp/T/http_QKogzV.yml']
+[2017-11-01 15:12:29,514 DEBUG root] Using personal config: /Users/osmansiddiqui/.bzt-rc
+[2017-11-01 15:12:29,514 INFO Engine] Configuring...
+[2017-11-01 15:12:29,514 DEBUG Engine] No machine configs dir: /usr/local/Cellar/bzt/1.10.0/libexec/etc/bzt.d
+[2017-11-01 15:12:29,515 DEBUG Engine.Configuration] Configs: ['/usr/local/Cellar/bzt/1.10.0/libexec/lib/python2.7/site-packages/bzt/resources/base-config.yml']
+[2017-11-01 15:12:29,515 DEBUG Engine.Configuration] Reading /usr/local/Cellar/bzt/1.10.0/libexec/lib/python2.7/site-packages/bzt/resources/base-config.yml as YAML
+[2017-11-01 15:12:29,536 DEBUG Engine.Configuration] Configs: ['/Users/osmansiddiqui/.bzt-rc', '/var/folders/5l/9hgw0k3n2w92y350ljlnysb40000gp/T/http_QKogzV.yml']
+[2017-11-01 15:12:29,537 DEBUG Engine.Configuration] Reading /Users/osmansiddiqui/.bzt-rc as YAML
+[2017-11-01 15:12:29,540 DEBUG Engine.Configuration] Reading /var/folders/5l/9hgw0k3n2w92y350ljlnysb40000gp/T/http_QKogzV.yml as YAML
+[2017-11-01 15:12:29,544 DEBUG Engine.Configuration] Configs: ['/Users/osmansiddiqui/.bzt-rc', '/var/folders/5l/9hgw0k3n2w92y350ljlnysb40000gp/T/http_QKogzV.yml']
+[2017-11-01 15:12:29,544 DEBUG Engine.Configuration] Reading /Users/osmansiddiqui/.bzt-rc as YAML
+[2017-11-01 15:12:29,547 DEBUG Engine.Configuration] Reading /var/folders/5l/9hgw0k3n2w92y350ljlnysb40000gp/T/http_QKogzV.yml as YAML
+[2017-11-01 15:12:29,563 DEBUG Engine] Requesting updates info: http://gettaurus.org/updates/?version=1.10.0&installID=macos-8c85904e360d
+[2017-11-01 15:12:29,563 INFO Engine] Artifacts dir: /Users/osmansiddiqui/Documents/github/web-testing/2017-11-01_15-12-29.563589
+[2017-11-01 15:12:29,567 DEBUG Engine] New artifact filename: /Users/osmansiddiqui/Documents/github/web-testing/2017-11-01_15-12-29.563589/effective
+[2017-11-01 15:12:29,569 DEBUG Engine.Configuration] Dumping YAML config into /Users/osmansiddiqui/Documents/github/web-testing/2017-11-01_15-12-29.563589/effective.yml
+[2017-11-01 15:12:29,587 DEBUG Engine.Configuration] Dumping JSON config into /Users/osmansiddiqui/Documents/github/web-testing/2017-11-01_15-12-29.563589/effective.json
+[2017-11-01 15:12:29,587 DEBUG Engine] New artifact filename: /Users/osmansiddiqui/Documents/github/web-testing/2017-11-01_15-12-29.563589/merged.yml
+[2017-11-01 15:12:29,588 DEBUG Engine.Configuration] Dumping YAML config into /Users/osmansiddiqui/Documents/github/web-testing/2017-11-01_15-12-29.563589/merged.yml
+[2017-11-01 15:12:29,591 DEBUG Engine] New artifact filename: /Users/osmansiddiqui/Documents/github/web-testing/2017-11-01_15-12-29.563589/merged.json
+[2017-11-01 15:12:29,591 DEBUG Engine.Configuration] Dumping JSON config into /Users/osmansiddiqui/Documents/github/web-testing/2017-11-01_15-12-29.563589/merged.json
+[2017-11-01 15:12:29,591 DEBUG Engine] Add existing artifact (move=False): /var/folders/5l/9hgw0k3n2w92y350ljlnysb40000gp/T/http_QKogzV.yml
+[2017-11-01 15:12:29,591 DEBUG Engine] Copying /var/folders/5l/9hgw0k3n2w92y350ljlnysb40000gp/T/http_QKogzV.yml to /Users/osmansiddiqui/Documents/github/web-testing/2017-11-01_15-12-29.563589/http_QKogzV.yml
+[2017-11-01 15:12:29,591 DEBUG root] Closing log handler: /var/folders/5l/9hgw0k3n2w92y350ljlnysb40000gp/T/bzt_Ke0FVQ.log
+[2017-11-01 15:12:29,592 DEBUG root] Switched writing logs to /Users/osmansiddiqui/Documents/github/web-testing/2017-11-01_15-12-29.563589/bzt.log
+[2017-11-01 15:12:29,592 INFO Engine] Preparing...
+[2017-11-01 15:12:29,592 DEBUG Engine] Module config: consolidator defaultdict(None, {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'})
+[2017-11-01 15:12:29,592 DEBUG root] Importing module: bzt.modules.aggregator
+[2017-11-01 15:12:29,596 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/usr/local/Cellar/bzt/1.10.0/libexec/lib/python2.7/site-packages/bzt/modules/aggregator.pyc'>
+[2017-11-01 15:12:29,596 DEBUG Engine.consolidator] Exception in dehumanize_time(inf)
+[2017-11-01 15:12:29,596 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2017-11-01 15:12:29,596 DEBUG Engine] Module config: monitoring defaultdict(None, {'class': 'bzt.modules.monitoring.Monitoring'})
+[2017-11-01 15:12:29,596 DEBUG root] Importing module: bzt.modules.monitoring
+[2017-11-01 15:12:29,623 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/usr/local/Cellar/bzt/1.10.0/libexec/lib/python2.7/site-packages/bzt/modules/monitoring.pyc'>
+[2017-11-01 15:12:29,623 DEBUG Engine] Module config: local defaultdict(None, {'class': 'bzt.modules.provisioning.Local'})
+[2017-11-01 15:12:29,623 DEBUG root] Importing module: bzt.modules.provisioning
+[2017-11-01 15:12:29,623 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/usr/local/Cellar/bzt/1.10.0/libexec/lib/python2.7/site-packages/bzt/modules/provisioning.pyc'>
+[2017-11-01 15:12:29,623 DEBUG Engine] Module config: jmeter defaultdict(None, {'properties': defaultdict(None, {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'concurrencyCap': 500, 'summariser.name': '', 'jmeterengine.force.system.exit': 'true', 'throughput': 1, 'mode': 'Stripped'}), 'class': 'bzt.modules.jmeter.JMeterExecutor', 'plugins': ['jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst']})
+[2017-11-01 15:12:29,624 DEBUG root] Importing module: bzt.modules.jmeter
+[2017-11-01 15:12:29,633 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from '/usr/local/Cellar/bzt/1.10.0/libexec/lib/python2.7/site-packages/bzt/modules/jmeter.pyc'>
+[2017-11-01 15:12:29,633 DEBUG Engine.local] Preparing executor: jmeter/4365853200
+[2017-11-01 15:12:29,633 DEBUG Engine] New artifact filename: /Users/osmansiddiqui/Documents/github/web-testing/2017-11-01_15-12-29.563589/jmeter.log
+[2017-11-01 15:12:29,633 DEBUG Engine.jmeter] Checking if port 4445 is free
+[2017-11-01 15:12:29,634 DEBUG Engine.jmeter] Port 4445 is free
+[2017-11-01 15:12:29,634 DEBUG Engine.jmeter] Using port 4445 for management
+[2017-11-01 15:12:29,634 DEBUG Engine.jmeter.JavaVM] Trying JavaVM: ['java', '-version']
+[2017-11-01 15:12:29,768 DEBUG Engine.jmeter.JavaVM] JavaVM output: java version "9.0.1"
+Java(TM) SE Runtime Environment (build 9.0.1+11)
+Java HotSpot(TM) 64-Bit Server VM (build 9.0.1+11, mixed mode)
+
+[2017-11-01 15:12:29,768 DEBUG Engine.jmeter.TclLibrary] We don't need to check tcl library on this platform
+[2017-11-01 15:12:29,769 DEBUG Engine.jmeter.JMeter] Trying jmeter: /Users/osmansiddiqui/.bzt/jmeter-taurus/3.3/bin/jmeter.sh
+[2017-11-01 15:12:29,769 DEBUG bzt.utils] Executing shell: ['/Users/osmansiddiqui/.bzt/jmeter-taurus/3.3/bin/jmeter.sh', '-j', '/var/folders/5l/9hgw0k3n2w92y350ljlnysb40000gp/T/jmeter0yakkklog', '--version']
+[2017-11-01 15:12:29,914 DEBUG Engine.jmeter.JMeter] JMeter check: Error: Java version is too low to run JMeter. Needs at least Java >= 1.8.0.
+ / None
+[2017-11-01 15:12:29,915 ERROR root] Child Process Error: Java version is too low to run JMeter
+[2017-11-01 15:12:29,916 DEBUG root] ToolError: Java version is too low to run JMeter
+Traceback (most recent call last):
+  File "/usr/local/Cellar/bzt/1.10.0/libexec/lib/python2.7/site-packages/bzt/cli.py", line 224, in perform
+    self.engine.prepare()
+  File "/usr/local/Cellar/bzt/1.10.0/libexec/lib/python2.7/site-packages/bzt/engine.py", line 158, in prepare
+    self.__prepare_provisioning()
+  File "/usr/local/Cellar/bzt/1.10.0/libexec/lib/python2.7/site-packages/bzt/engine.py", line 490, in __prepare_provisioning
+    self.provisioning.prepare()
+  File "/usr/local/Cellar/bzt/1.10.0/libexec/lib/python2.7/site-packages/bzt/modules/provisioning.py", line 71, in prepare
+    executor.prepare()
+  File "/usr/local/Cellar/bzt/1.10.0/libexec/lib/python2.7/site-packages/bzt/modules/jmeter.py", line 278, in prepare
+    self.install_required_tools()
+  File "/usr/local/Cellar/bzt/1.10.0/libexec/lib/python2.7/site-packages/bzt/modules/jmeter.py", line 861, in install_required_tools
+    if self._need_to_install(self.tool):
+  File "/usr/local/Cellar/bzt/1.10.0/libexec/lib/python2.7/site-packages/bzt/modules/jmeter.py", line 879, in _need_to_install
+    if tool.check_if_installed():
+  File "/usr/local/Cellar/bzt/1.10.0/libexec/lib/python2.7/site-packages/bzt/modules/jmeter.py", line 1522, in check_if_installed
+    raise ToolError("Java version is too low to run JMeter")
+ToolError: Java version is too low to run JMeter
+[2017-11-01 15:12:29,916 INFO Engine] Post-processing...
+[2017-11-01 15:12:29,916 DEBUG Engine.consolidator] Consolidator buffer[0]: []
+[2017-11-01 15:12:29,918 DEBUG Engine.Configuration] Dumping YAML config into /Users/osmansiddiqui/Documents/github/web-testing/2017-11-01_15-12-29.563589/effective.yml
+[2017-11-01 15:12:29,919 DEBUG Engine] Taurus updates info: {"latest":"1.10.0","needsUpgrade":false}
+[2017-11-01 15:12:29,919 DEBUG Engine] Installation is up-to-date
+[2017-11-01 15:12:29,944 DEBUG Engine.Configuration] Dumping JSON config into /Users/osmansiddiqui/Documents/github/web-testing/2017-11-01_15-12-29.563589/effective.json
+[2017-11-01 15:12:29,945 INFO root] Artifacts dir: /Users/osmansiddiqui/Documents/github/web-testing/2017-11-01_15-12-29.563589
+[2017-11-01 15:12:29,945 WARNING root] Done performing with code: 1
+[2017-11-01 15:12:29,945 DEBUG root] Closing log handler: /Users/osmansiddiqui/Documents/github/web-testing/2017-11-01_15-12-29.563589/bzt.log

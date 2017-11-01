@@ -1,4 +1,7 @@
 from locust import HttpLocust, TaskSet, task
+#for locust
+# to get list of hosts ps -fA | grep python
+#  KILL -9 to kill it
 
 class UserBehavior(TaskSet):
     def on_start(self):
@@ -6,7 +9,7 @@ class UserBehavior(TaskSet):
         self.login()
 
     def login(self):
-        self.client.post("/login", {"username":"ellen_key", "password":"education"})
+        self.client.post("/login", {"username":"osman.siddiqui@sema4genomics.com", "password":"12345678"})
 
     @task(2)
     def index(self):

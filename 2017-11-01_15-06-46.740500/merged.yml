@@ -1,0 +1,38 @@
+---
+execution:
+- concurrency: ${__tstFeedback(Throughput_Limiter,1,${__P(concurrencyCap,1)},2)}
+  hold-for: 2m
+  scenario: linear-growth
+  throughput: ${__P(throughput,600)}
+modules:
+  jmeter:
+    properties:
+      concurrencyCap: 500
+      throughput: 1
+scenarios:
+  linear-growth:
+    keepalive: false
+    requests:
+    - action: pause
+      jsr223:
+      - execute: before
+        language: javascript
+        script-text: |2-
+
+          var startTime = parseInt(props.get("startTime"));
+          if (!startTime) {
+              startTime = Math.floor((new Date()).getTime() / 1000);
+              props.put("startTime", startTime);
+          } else {
+              var now = Math.floor((new Date()).getTime() / 1000);
+              var offset = now - startTime;
+              if (offset < 60) {
+                  var targetOffset = Math.max(offset * 10, 10);
+                  props.put("throughput", targetOffset.toString());
+              }
+          }
+      pause-duration: 0
+    - http://34.235.93.148/CancerCurationView/public/login/login
+    retrieve-resources: false
+    timeout: 5s
+
