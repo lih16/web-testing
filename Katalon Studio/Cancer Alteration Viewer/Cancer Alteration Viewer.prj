@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>Cancer alteration viewer on amazon</description>
+   <name>Cancer Alteration Viewer</name>
+   <tag></tag>
+   <UUID>d663edde-9a00-4019-bdf4-c2dbfab62906</UUID>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>
