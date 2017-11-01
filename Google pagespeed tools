@@ -1,0 +1,81 @@
+https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2F34.235.93.148%2FCancerCurationView%2Fpublic%2Fhome%2Fbrowse&tab=desktop
+
+Google pagespeed insights results
+
+Desktop-------------------
+
+Good
+91 / 100
+Great job! This page applies most performance best practices and should deliver a good user experience.
+Possible Optimizations
+
+Eliminate render-blocking JavaScript and CSS in above-the-fold content
+Your page has 1 blocking script resources and 1 blocking CSS resources. This causes a delay in rendering your page.
+None of the above-the-fold content on your page could be rendered without waiting for the following resources to load. Try to defer or asynchronously load blocking resources, or inline the critical portions of those resources directly in the HTML.
+Remove render-blocking JavaScript:
+http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js
+Optimize CSS Delivery of the following:
+http://34.235.93.148/…CancerCurationView/public/css//login.css
+Hide details
+Leverage browser caching
+Setting an expiry date or a maximum age in the HTTP headers for static resources instructs the browser to load previously downloaded resources from local disk rather than over the network.
+Leverage browser caching for the following cacheable resources:
+http://34.235.93.148/…CancerCurationView/public/css//login.css (expiration not specified)
+Hide details
+Optimizations Found
+Hide details
+Avoid landing page redirects
+Your page has no redirects. Learn more about avoiding landing page redirects.
+Enable compression
+You have compression enabled. Learn more about enabling compression.
+Minify CSS
+Your CSS is minified. Learn more about minifying CSS.
+Minify HTML
+Your HTML is minified. Learn more about minifying HTML.
+Minify JavaScript
+Your JavaScript content is minified. Learn more about minifying JavaScript.
+Optimize images
+Your images are optimized. Learn more about optimizing images.
+Prioritize visible content
+You have the above-the-fold content properly prioritized. Learn more about prioritizing visible content.
+Reduce server response time
+Your server responded quickly. Learn more about server response time optimization.
+
+
+
+mobile------------------
+Needs Work
+75 / 100
+This page is missing some common performance optimizations that may result in a slow user experience. Please investigate the recommendations below.
+Possible Optimizations
+Eliminate render-blocking JavaScript and CSS in above-the-fold content
+Your page has 1 blocking script resources and 1 blocking CSS resources. This causes a delay in rendering your page.
+None of the above-the-fold content on your page could be rendered without waiting for the following resources to load. Try to defer or asynchronously load blocking resources, or inline the critical portions of those resources directly in the HTML.
+Remove render-blocking JavaScript:
+http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js
+Optimize CSS Delivery of the following:
+http://34.235.93.148/…CancerCurationView/public/css//login.css
+Hide details
+Leverage browser caching
+Setting an expiry date or a maximum age in the HTTP headers for static resources instructs the browser to load previously downloaded resources from local disk rather than over the network.
+Leverage browser caching for the following cacheable resources:
+http://34.235.93.148/…CancerCurationView/public/css//login.css (expiration not specified)
+Hide details
+Optimizations Found
+Hide details
+Avoid landing page redirects
+Your page has no redirects. Learn more about avoiding landing page redirects.
+Enable compression
+You have compression enabled. Learn more about enabling compression.
+Minify CSS
+Your CSS is minified. Learn more about minifying CSS.
+Minify HTML
+Your HTML is minified. Learn more about minifying HTML.
+Minify JavaScript
+Your JavaScript content is minified. Learn more about minifying JavaScript.
+Optimize images
+Your images are optimized. Learn more about optimizing images.
+Prioritize visible content
+You have the above-the-fold content properly prioritized. Learn more about prioritizing visible content.
+Reduce server response time
+Your server responded quickly. Learn more about server response time optimization.

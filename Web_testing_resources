@@ -1,0 +1,23 @@
+web testing resources
+
+IDE
+1. katalon studio
+
+
+
+
+Load testing
+1. https://locust.io
+2. apache bench https://httpd.apache.org/docs/2.4/programs/ab.html
+3.https://jmeter.apache.org
+
+
+
+
+Tools for understanding client-side performance
+
+Modern applications spend more time in the browser than on the server side. The best tool to use to understand client-side performance is ...
+
+
+https://developers.google.com/speed/pagespeed/insights/
+Google PageSpeed Insights, a service that analyzes the content of a web page and generates suggestions to make your pages load faster. Reducing page load times reduces bounce rates and increases conversion rates.
